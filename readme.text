@@ -1,0 +1,17 @@
+# Simple Blog Management System
+
+## Setup Instructions
+
+1. Clone or download this repository.
+2. Create a MySQL database named `blog_db6`.
+3. Run the provided SQL script to create the `posts` table.
+4. Configure your database connection in `Database.php`.
+5. Use the provided PHP files to create, view, update, delete, and list blog posts.
+
+## Pages
+
+- `create_post.php`: Create a new blog post.
+- `view_post.php`: View a single blog post.
+- `edit_post.php`: Edit an existing blog post.
+- `delete_post.php`: Delete a blog post.
+- `list_posts.php`: List all blog posts.
