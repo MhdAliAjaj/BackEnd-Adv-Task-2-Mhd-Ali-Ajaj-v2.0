@@ -13,6 +13,7 @@ if (isset($_GET['id'])) {
 
         if ($post->update()) {
             echo '<div class="alert alert-success">Post updated successfully!</div>';
+            header("location:list_posts.php");
         } else {
             echo '<div class="alert alert-danger">Failed to update post.</div>';
         }

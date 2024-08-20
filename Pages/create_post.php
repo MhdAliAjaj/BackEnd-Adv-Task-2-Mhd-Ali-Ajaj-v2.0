@@ -12,6 +12,7 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
 
     if ($post->create()) {
         echo '<div class="alert alert-success">Post created successfully!</div>';
+         header("location:list_posts.php");
     } else {
         echo '<div class="alert alert-danger">Failed to create post.</div>';
     }

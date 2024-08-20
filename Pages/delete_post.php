@@ -19,6 +19,7 @@ if (isset($_GET['id'])) {
 
     if ($post->delete()) {
         echo '<div class="alert alert-success">Post deleted successfully!</div>';
+        header("location:list_posts.php");
     } else {
         echo '<div class="alert alert-danger">Failed to delete post.</div>';
     }
